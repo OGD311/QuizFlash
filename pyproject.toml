@@ -1,0 +1,15 @@
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core>=1.0.0"]
+
+[tool]
+[tool.poetry]
+authors = ["Oliver GD - 7GoodwO@royalhospitalschool.org"]
+description = "Quiz/Flashcard revision program with advanced login system and password encryption -> Includes the ability to add your own quizzes by uploading a csv file (Can be made in excel or other spreadsheet programs)"
+name = "repl_python3_QuizFlash_1.2.7"
+version = "1.3.5 - BETA"
+[tool.poetry.dependencies]
+openpyxl = "3.0.7"
+python = "^3.8"
+unicodecsv = "0.14.1"
+[tool.poetry.dev-dependencies]
